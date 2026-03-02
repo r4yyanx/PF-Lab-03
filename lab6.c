@@ -3,10 +3,10 @@
 
 int main()
 {
-    int checkin;
+    int i, checkin;
     int total = 0;
 
-    for(int i = 1; i <= 25; i++)
+    for( i = 1; i <= 25; i++)
     {
         printf("Member %d (1 = Checked In, 0 = Absent): ", i);
         scanf("%d", &checkin);
@@ -319,3 +319,4 @@ int main()
 
     return 0;
 }
+
